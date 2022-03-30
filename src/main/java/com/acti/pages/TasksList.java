@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.acti.base.DriverScript;
+import com.acti.utils.Helper;
 
 public class TasksList extends DriverScript {
 	// page Elements
@@ -78,11 +79,13 @@ public class TasksList extends DriverScript {
 	public void edditbutten()
 	{
 		edditbuttenElement.click();
+		Helper.fn_Sleep();
 	}
 	
 	public void actionbutten()
 	{
 		clickActionElement.click();
+		Helper.fn_Sleep();
 	}
 	
 	public void deletebutten()

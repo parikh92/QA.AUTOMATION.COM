@@ -1,7 +1,7 @@
 package com.qa.tests;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
+
 import com.acti.utils.Helper;
 
 public class TasksListPage extends BaseTest {
@@ -32,9 +32,6 @@ public class TasksListPage extends BaseTest {
 		tasklistPage.search("nana");
 		tasklistPage.name();
 		tasklistPage.edditbutten();
-		JavascriptExecutor executor = (JavascriptExecutor)driver;
-		Object searchbutton = null;
-		executor.executeScript("arguments[0].click();", searchbutton);
 		tasklistPage.actionbutten();
 		tasklistPage.deletebutten();
 		tasklistPage.deletepermanetl();
