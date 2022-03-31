@@ -2,7 +2,7 @@ package com.qa.tests;
 
 
 import org.testng.annotations.Test;
-
+import com.acti.pages.LoginPage;
 import com.acti.utils.Helper;
 
 public class LoginTests extends BaseTest {
@@ -20,13 +20,13 @@ public class LoginTests extends BaseTest {
 		Helper.fn_Sleep();
 		
 	}
-	//@Test(priority = 2)
-	//public void testvalidteForgotPasswordLinl() 
-	//{
-	//	LoginPage loginPage = new LoginPage();
-	//	boolean flag = loginPage.verifylinkForgetPassword();
-	//	System.out.println(flag);
-		//Helper.fn_Sleep();
-	//}
+	@Test(priority = 2)
+	public void testvalidteForgotPasswordLinl() 
+	{
+		LoginPage loginPage = new LoginPage();
+		boolean flag = loginPage.verifylinkForgetPassword();
+		System.out.println(flag);
+		Helper.fn_Sleep();
+	}
 	
 }
