@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\parik\AppData\Local\Temp\testng-eclipse--104912438\testng-customsuite.xml</span>
+                    <span>C:\Users\parik\AppData\Local\Temp\testng-eclipse--1875486650\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.qa.tests.TasksListPage" class="method navigator-link" hash-for-method="taskslist">taskslist</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.tests.LoginTests" class="method navigator-link" hash-for-method="testLoginPage(admin, manager)">testLoginPage(admin, manager)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.qa.tests.TasksListPage" class="method navigator-link" hash-for-method="testDeleteCustomer">testDeleteCustomer</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.tests.LoginTests" class="method navigator-link" hash-for-method="testLoginPage(admin, manager)">testLoginPage(admin, manager)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,21 +125,23 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.tests.TasksListPage</span>
+              <span class="class-name">com.qa.tests.LoginTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="taskslist">
-                  </a> <!-- taskslist -->
-                  <span class="method-name">taskslist</span>
+                  <a name="testLoginPage(admin, manager)">
+                  </a> <!-- testLoginPage(admin, manager) -->
+                  <span class="method-name">testLoginPage</span>
+                  <span class="parameters">(admin, manager)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeleteCustomer">
-                  </a> <!-- testDeleteCustomer -->
-                  <span class="method-name">testDeleteCustomer</span>
+                  <a name="testLoginPage(admin, manager)">
+                  </a> <!-- testLoginPage(admin, manager) -->
+                  <span class="method-name">testLoginPage</span>
+                  <span class="parameters">(admin, manager)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +149,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\parik\AppData\Local\Temp\testng-eclipse--104912438\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\parik\AppData\Local\Temp\testng-eclipse--1875486650\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +158,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.tests.TasksListPage&quot;/&gt;
+      &lt;class name=&quot;com.qa.tests.LoginTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,18 +200,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testDeleteCustomer')
-data.setCell(0, 2, 'com.qa.tests.TasksListPage')
-data.setCell(0, 3, 18624);
+data.setCell(0, 1, 'testLoginPage')
+data.setCell(0, 2, 'com.qa.tests.LoginTests')
+data.setCell(0, 3, 6887);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'taskslist')
-data.setCell(1, 2, 'com.qa.tests.TasksListPage')
-data.setCell(1, 3, 8489);
+data.setCell(1, 1, 'testLoginPage')
+data.setCell(1, 2, 'com.qa.tests.LoginTests')
+data.setCell(1, 3, 6871);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -235,34 +237,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.tests.TasksListPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.tests.LoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">165 ms</span>
+                <span class="method-start">597 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">taskslist</span>
-                <span class="method-start">2960 ms</span>
+                <span class="method-name">testLoginPage(admin, manager)</span>
+                <span class="method-start">3243 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11450 ms</span>
+                <span class="method-start">10115 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">17309 ms</span>
+                <span class="method-start">15782 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testDeleteCustomer</span>
-                <span class="method-start">19989 ms</span>
+                <span class="method-name">testLoginPage(admin, manager)</span>
+                <span class="method-start">18073 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38614 ms</span>
+                <span class="method-start">24960 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

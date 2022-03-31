@@ -2,40 +2,64 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-31T00:51:21Z" name="Default suite" finished-at="2022-03-31T00:52:05Z" duration-ms="44139">
+  <suite started-at="2022-03-31T22:27:03Z" name="Default suite" finished-at="2022-03-31T22:27:34Z" duration-ms="30442">
     <groups>
     </groups>
-    <test started-at="2022-03-31T00:51:21Z" name="Default test" finished-at="2022-03-31T00:52:05Z" duration-ms="44139">
-      <class name="com.qa.tests.TasksListPage">
-        <test-method is-config="true" signature="setReport()[pri:0, instance:com.qa.tests.TasksListPage@455b6df1]" started-at="2022-03-31T00:51:21Z" name="setReport" finished-at="2022-03-31T00:51:21Z" duration-ms="155" status="PASS">
+    <test started-at="2022-03-31T22:27:03Z" name="Default test" finished-at="2022-03-31T22:27:34Z" duration-ms="30442">
+      <class name="com.qa.tests.LoginTests">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.qa.tests.LoginTests@1115ec15]" started-at="2022-03-31T22:27:03Z" name="setReport" finished-at="2022-03-31T22:27:03Z" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TasksListPage@455b6df1]" started-at="2022-03-31T00:51:21Z" name="setup" finished-at="2022-03-31T00:51:24Z" duration-ms="2794" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.LoginTests@1115ec15]" started-at="2022-03-31T22:27:04Z" name="setup" finished-at="2022-03-31T22:27:06Z" duration-ms="2646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="taskslist()[pri:1, instance:com.qa.tests.TasksListPage@455b6df1]" started-at="2022-03-31T00:51:24Z" name="taskslist" finished-at="2022-03-31T00:51:33Z" duration-ms="8489" status="PASS">
+        <test-method signature="testLoginPage(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.LoginTests@1115ec15]" started-at="2022-03-31T22:27:06Z" name="testLoginPage" data-provider="actiData" finished-at="2022-03-31T22:27:13Z" duration-ms="6871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- taskslist -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.TasksListPage@455b6df1]" started-at="2022-03-31T00:51:33Z" name="tearDown" finished-at="2022-03-31T00:51:38Z" duration-ms="5858" status="PASS">
+        </test-method> <!-- testLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.LoginTests@1115ec15]" started-at="2022-03-31T22:27:13Z" name="tearDown" finished-at="2022-03-31T22:27:19Z" duration-ms="5667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TasksListPage@455b6df1]" started-at="2022-03-31T00:51:38Z" name="setup" finished-at="2022-03-31T00:51:41Z" duration-ms="2680" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.LoginTests@1115ec15]" started-at="2022-03-31T22:27:19Z" name="setup" finished-at="2022-03-31T22:27:21Z" duration-ms="2291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testDeleteCustomer()[pri:2, instance:com.qa.tests.TasksListPage@455b6df1]" started-at="2022-03-31T00:51:41Z" name="testDeleteCustomer" finished-at="2022-03-31T00:52:00Z" duration-ms="18624" status="PASS">
+        <test-method signature="testLoginPage(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.LoginTests@1115ec15]" started-at="2022-03-31T22:27:21Z" name="testLoginPage" data-provider="actiData" finished-at="2022-03-31T22:27:28Z" duration-ms="6887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.TasksListPage@455b6df1]" started-at="2022-03-31T00:52:00Z" name="tearDown" finished-at="2022-03-31T00:52:05Z" duration-ms="5681" status="PASS">
+        </test-method> <!-- testLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.LoginTests@1115ec15]" started-at="2022-03-31T22:27:28Z" name="tearDown" finished-at="2022-03-31T22:27:34Z" duration-ms="5641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.TasksListPage -->
+      </class> <!-- com.qa.tests.LoginTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
