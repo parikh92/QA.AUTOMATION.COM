@@ -15,6 +15,7 @@ public class TasksList extends DriverScript {
 	@FindBy(xpath = "//input[@class='inputFieldWithPlaceholder newNameField inputNameField']") WebElement entercoustomerElement;
 	@FindBy(xpath = "//textarea[@placeholder='Enter Customer Description']") WebElement descriptionElement;
 	@FindBy(xpath = "//*[@id=\"customerLightBox_content\"]/div[3]/div[2]/div[1]/div/div[1]") WebElement createcustomerElement;
+	
 	@FindBy(xpath = "//input[@placeholder='Start typing name ...' ]") WebElement searchElement;
 	@FindBy(xpath = "//*[@id=\"taskManagementPage\"]/div[1]/div[1]/div[2]/div/div[3]/div/div[1]/div[2]/div/div[3]/div[1]/span") WebElement nameclickElement;
 	@FindBy(xpath = "//*[@id=\"taskListBlock\"]/div[1]/div[2]/div[1]/div/div[2]") WebElement edditbuttenElement;
