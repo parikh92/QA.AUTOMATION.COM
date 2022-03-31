@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeSuite;
 import com.acti.base.DriverScript;
 import com.acti.pages.EnterTimePage;
 import com.acti.pages.LoginPage;
+import com.acti.pages.ReportsPage;
 import com.acti.pages.TasksList;
 import com.acti.utils.Helper;
 import com.aventstack.extentreports.ExtentReports;
@@ -19,6 +20,7 @@ public class BaseTest extends DriverScript {
 	TasksList tasklistPage;
 	ExtentReports report;
 	ExtentTest logger;
+	ReportsPage ReportsPage;
 	
 	@BeforeSuite
 	public void setReport() {
@@ -37,6 +39,7 @@ public class BaseTest extends DriverScript {
 		LoginPage = new LoginPage();
 		enterTimePage = new EnterTimePage();
 		tasklistPage = new TasksList();
+		ReportsPage = new ReportsPage();
 
 		
 		

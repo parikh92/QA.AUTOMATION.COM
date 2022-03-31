@@ -22,7 +22,7 @@ public class TasksListPage extends BaseTest {
 		logger.pass("clicked add new butten");
 		tasklistPage.NewCustomere();
 		logger.pass("clicked new customer");
-		tasklistPage.Entername("nana");
+		tasklistPage.Entername("MAYANK");
 		logger.pass("entered coustomer name");
 		tasklistPage.EnterDescrip("QA");
 		logger.pass("entered coustomer descrip");
@@ -33,14 +33,14 @@ public class TasksListPage extends BaseTest {
 		logger.pass("click log out");
 	}
 	
-	//@Test(priority = 2)
+	@Test(priority = 2)
 	public void testDeleteCustomer()
 	{
 		LoginPage.enterUsername("admin");
 		LoginPage.enterPassword("manager");
 		LoginPage.clickLogin();
 		tasklistPage.Taskclick();
-		tasklistPage.search("nana");
+		tasklistPage.search("MAYANK");
 		tasklistPage.name();
 		tasklistPage.edditbutten();
 		tasklistPage.actionbutten();
